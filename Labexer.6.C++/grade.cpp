@@ -2,7 +2,11 @@
 using namespace std;
 
 void grade(float gpa);
-
+/**
+ * main - check the code
+ * 
+ * Return: always 0 success
+ */
 int main(void)
 {
     float gpa;
@@ -15,6 +19,11 @@ int main(void)
     return (0);
 }
 
+/**
+ * grad - this function checks if a gpa has met a certain condition
+ * @gpa: The gpa to be checked
+ * Return: void
+ */
 void grade(float gpa)
 {
     if (gpa >= 3.5)
