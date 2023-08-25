@@ -9,7 +9,15 @@ int main(void)
     cout<<"Enter number: "<<endl;
     cin>>num;
 
-    
+    if (num >= 14 && num <= 72 || num > 103)
+    {
+        cout<<"good\n";
+    }
+
+    else
+    {
+        cout<<"bad";
+    }
 
     return (0);
 }
