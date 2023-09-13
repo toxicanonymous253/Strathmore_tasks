@@ -19,7 +19,11 @@ int main(void)
 
     return (0);
 }
-
+/**
+ * perimeter - this function calculates the perimeter of a circle
+ * @radius: radius of the circle
+ * Return: void
+ */
 void perimeter(int radius)
 {
     int perimeter = 2 * 3.142 * radius;
@@ -28,7 +32,11 @@ void perimeter(int radius)
 
     return;
 }
-
+/**
+ * area - this function calculates the area of a circle
+ * @radius: radius of the circle
+ * Return: void
+ */
 void area(int radius)
 {
     int area = 3.142 * radius * radius;
