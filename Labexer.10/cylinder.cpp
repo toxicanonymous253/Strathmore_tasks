@@ -3,7 +3,11 @@ using namespace std;
 
 // function prototype
 void volume(int radius, int height);
-
+/**
+ * main - check the code
+ * 
+ * Return: 0 always
+ */
 int main(void)
 {
     int radius = 13;
@@ -17,6 +21,7 @@ int main(void)
  * volume - this function will be usede to calculate the volume of a cylinder
  * @radus: radius of the base of the cylinder
  * @height: height of the cylinder
+ * Return: void
  */
 void volume(int radius, int height)
 {
